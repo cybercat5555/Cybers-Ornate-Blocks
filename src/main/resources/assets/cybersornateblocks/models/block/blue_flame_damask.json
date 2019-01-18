@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "cybersornateblocks:blocks/blue_flame_damask"
+   }
+}

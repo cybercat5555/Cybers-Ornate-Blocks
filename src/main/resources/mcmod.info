@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ccob",
+  "name": "Cyber's Ornate Blocks",
+  "description": "A few nice blocks and bits and bobs.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Cybercat5555"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
