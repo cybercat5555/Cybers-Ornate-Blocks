@@ -1,0 +1,21 @@
+##Items
+item.ovis_head.name=Cabeza de Ovis Colocable (WIP)
+
+##Blocks
+tile.black_flame_damask.name=Damasco de Llama Negro
+tile.blue_flame_damask.name=Damasco de Llama Azul
+tile.brown_flame_damask.name=Damasco de Llama Marrón
+tile.cyan_flame_damask.name=Damasco de Llama Cian
+tile.gray_flame_damask.name=Damasco de Llama Gris
+tile.green_flame_damask.name=Damasco de Llama Verde
+tile.lightblue_flame_damask.name=Damasco de Llama Azul Claro
+tile.lime_flame_damask.name=Damasco de Llama Verde Lima
+tile.magenta_flame_damask.name=Damasco de Llama Magenta
+tile.orange_flame_damask.name=Damasco de Llama Naranja
+tile.pink_flame_damask.name=Damasco de Llama Rosa
+tile.purple_flame_damask.name=Damasco de Llama Morado
+tile.red_flame_damask.name=Damasco de Llama Rojo
+tile.silver_flame_damask.name=Damasco de Llama Gris Claro
+tile.white_flame_damask.name=Damasco de Llama Blanco
+tile.yellow_flame_damask.name=Damasco de Llama Amarillo
+tile.chevron_bw.name=Chevrones en Blanco y Negro

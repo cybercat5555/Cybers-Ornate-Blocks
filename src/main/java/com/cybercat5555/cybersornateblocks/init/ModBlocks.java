@@ -6,6 +6,7 @@ import java.util.List;
 import com.cybercat5555.cybersornateblocks.blocks.BlockBase;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
 public class ModBlocks 
@@ -28,5 +29,6 @@ public class ModBlocks
 	public static final Block SILVER_FLAME_DAMASK = new BlockBase("silver_flame_damask", Material.CLOTH);
 	public static final Block WHITE_FLAME_DAMASK = new BlockBase("white_flame_damask", Material.CLOTH);
 	public static final Block YELLOW_FLAME_DAMASK = new BlockBase("yellow_flame_damask", Material.CLOTH);
+	public static final Block CHEVRON_BW = new BlockBase("chevron_bw", Material.ROCK);
 
 }

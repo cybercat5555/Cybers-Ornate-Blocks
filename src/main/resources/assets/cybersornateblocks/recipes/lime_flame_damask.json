@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WBW",
+        "BWB",
+        "WBW"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:wool",
+            "data": 5
+        },
+        
+        "B": 
+        {
+        	"item": "minecraft:blaze_powder"
+    	}
+        
+    },
+    
+    "result":
+    {
+        "item": "cybersornateblocks:lime_flame_damask",
+        "count": 8
+    }
+}

@@ -1,0 +1,22 @@
+##Items
+item.ovis_head.name=Tête D'Ovis(WIP)
+
+##Blocks
+tile.black_flame_damask.name=Flamme Noire Damassé
+tile.blue_flame_damask.name=Flamme Bleue Damassé
+tile.brown_flame_damask.name=Flamme Brune Damassé
+tile.cyan_flame_damask.name=Flamme Cyan Damassé
+tile.gray_flame_damask.name=Flamme Grise Damassé
+tile.green_flame_damask.name=Flamme Verte Damassé
+tile.lightblue_flame_damask.name=Flamme Bleue Clair Damassé
+tile.lime_flame_damask.name=Flamme Vert Citron Damassé
+tile.magenta_flame_damask.name=Flamme Magenta Damassé
+tile.orange_flame_damask.name=Flamme Orange Damassé
+tile.pink_flame_damask.name=Flamme Rose Damassé
+tile.purple_flame_damask.name=Flamme Violette Damassé
+tile.red_flame_damask.name=Flamme Rouge Damassé
+tile.silver_flame_damask.name=Flamme D'Argent Damassé
+tile.white_flame_damask.name=Flamme Blance Damask
+tile.yellow_flame_damask.name=Flamme Jaune Damassé
+
+tile.chevron_bw.name=Noir et Blanc Chevron

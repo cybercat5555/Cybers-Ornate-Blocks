@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WWW",
+        "BBB",
+        "WWW"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:stained_hardened_clay",
+            "data": 0
+        },
+        
+        "B": 
+        {
+            "item": "minecraft:stained_hardened_clay",
+            "data": 15
+    	}
+        
+    },
+    
+    "result":
+    {
+        "item": "cybersornateblocks:chevron_bw",
+        "count": 16
+    }
+}
