@@ -1,14 +1,36 @@
 package com.cybercat5555.cybersornateblocks.proxy;
 
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.item.Item;
-import net.minecraftforge.client.model.ModelLoader;
+import com.cybercat5555.cybersornateblocks.client.renderer.tileentity.RenderGenericHead;
+import com.cybercat5555.cybersornateblocks.client.renderer.tileentity.RenderGenericHeadFloor;
+import com.cybercat5555.cybersornateblocks.common.block.BlockGenericSkull;
+import com.cybercat5555.cybersornateblocks.common.tileentity.TileEntityHead;
+import com.cybercat5555.cybersornateblocks.init.RegistryHandler;
 
-public class ClientProxy extends CommonProxy 
-{
-	public void registerItemRenderer(Item item, int meta, String id)
-	{
-		ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(item.getRegistryName(), id));
+import net.minecraftforge.fml.client.registry.ClientRegistry;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+public class ClientProxy implements ISidedProxy {
+
+	@Override
+	public void preInit(FMLPreInitializationEvent event) {
+		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityHead.class, new RenderGenericHead());
+		for(BlockGenericSkull block : RegistryHandler.genericskulls.keySet()) {
+			if(block.allowFloor) {
+				ClientRegistry.bindTileEntitySpecialRenderer(block.teClass.asSubclass(TileEntityHead.class), new RenderGenericHeadFloor());
+			}
+		}
+	}
+
+	@Override
+	public void init(FMLInitializationEvent e) {
+
+	}
+
+	@Override
+	public void postInit(FMLPostInitializationEvent e) {
+
 	}
 
 }

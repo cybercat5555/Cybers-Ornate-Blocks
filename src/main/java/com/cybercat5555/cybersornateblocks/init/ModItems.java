@@ -3,7 +3,7 @@ package com.cybercat5555.cybersornateblocks.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.cybercat5555.cybersornateblocks.items.ItemBase;
+import com.cybercat5555.cybersornateblocks.common.item.ItemBase;
 
 import net.minecraft.item.Item;
 

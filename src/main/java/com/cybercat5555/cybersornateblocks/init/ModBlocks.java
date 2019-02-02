@@ -3,10 +3,9 @@ package com.cybercat5555.cybersornateblocks.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.cybercat5555.cybersornateblocks.blocks.BlockBase;
+import com.cybercat5555.cybersornateblocks.common.block.BlockBase;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
 public class ModBlocks 
