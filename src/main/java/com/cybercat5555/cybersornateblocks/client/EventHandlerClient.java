@@ -7,6 +7,7 @@ import com.cybercat5555.cybersornateblocks.common.item.ItemBlockSkull;
 import com.cybercat5555.cybersornateblocks.init.ModBlocks;
 import com.cybercat5555.cybersornateblocks.init.ModItems;
 import com.cybercat5555.cybersornateblocks.init.RegistryHandler;
+import com.cybercat5555.cybersornateblocks.Reference;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelBakery;
@@ -21,7 +22,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-@Mod.EventBusSubscriber
+@Mod.EventBusSubscriber(modid = Reference.MOD_ID, value = Side.CLIENT)
 public class EventHandlerClient {
 
 	@SubscribeEvent
